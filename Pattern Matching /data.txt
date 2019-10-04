@@ -1,0 +1,26 @@
+
+abcdefghijklmnopqrstuvwxyz
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+
+nicholas.com
+
+254-710-568-014
+254-775-539-7750
+600-123-234-8974
+400-234-456-5684
+
+
+pattern = re.compile(r'[64]00.\d\d\d-\d\d\d.\d\d\d\d')
+
+# mo = pattern.findall(text_search)
+# for result in mo:
+#     print(result)
+
+with open('data.txt', 'r') as c:
+    contents = c.read()
+mo = pattern.findall(contents)
+for result in mo:
+    print(result)
+# print(text_search[5:8])
+
+ --character sets [64]00, matches specific numbers
