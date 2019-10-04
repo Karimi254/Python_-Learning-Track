@@ -1,0 +1,16 @@
+# Poor code that cannot be maintained
+print ('Enter name of the cat: ')
+catName1 = input()
+print ('Enter name of the cat: ')
+catName2 = input()
+print ('Enter name of the cat: ')
+catName3 = input()
+print ('Enter name of the cat: ')
+catName4 = input()
+print ('Enter name of the cat: ')
+catName5 = input()
+print ('Enter name of the cat: ')
+catName6 = input()
+
+print('The cat names are: ')
+print(catName1 + '' + catName2 + '' + catName3 + '' + catName4 + '' + catName5 + '' + catName6 + '')

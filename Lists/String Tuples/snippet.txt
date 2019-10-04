@@ -1,0 +1,7 @@
+- most of the methods used in lists can also be applied in strings
++len()
++str()
++for loop
++indexing
++slicing
++in and not operators

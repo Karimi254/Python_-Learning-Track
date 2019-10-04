@@ -1,0 +1,8 @@
+Tuples are similar to lists
+they are types inside parenthesis ()
+they are immutable
+functions in tuple are
++ copy()
++list()
++tuple()
++deecopy()

@@ -1,0 +1,4 @@
+-A method is similar to a function, except that its called on a value.
+e.g.
+-index() is a list method that gets the index of an item in a list.
+- the index value is returned if the value exists in the list
